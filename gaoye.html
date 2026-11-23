@@ -1,0 +1,5 @@
+<!doctype html><meta charset="utf-8"><title>高業極速刷題</title><body>載入中…<script>
+var U="https://api.github.com/repos/lynn66s-bot/gaoye/contents/index.html",K="gaoye-page-cache";
+function go(t){document.open();document.write(t);document.close()}
+fetch(U,{headers:{Accept:"application/vnd.github.raw"},cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(t){try{localStorage.setItem(K,t)}catch(e){}go(t)}).catch(function(){var t=null;try{t=localStorage.getItem(K)}catch(e){}if(t)go(t);else document.body.textContent="載入失敗，請確認網路後重新整理。"});
+</script>
